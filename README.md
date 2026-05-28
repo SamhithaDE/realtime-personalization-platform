@@ -58,29 +58,29 @@ This platform enables near-real-time clickstream analytics and personalization f
 
 ## Key Components
 
-### 1. High-Throughput Ingestion — Azure Event Hubs
+### 1. High-Throughput Ingestion - Azure Event Hubs
 - Partitioned event ingestion handling **2M+ events per hour**
 - Consumer group isolation for streaming and batch consumers
 - Checkpointing and offset management for exactly-once processing guarantees
 
-### 2. Stream Processing — Databricks Structured Streaming
+### 2. Stream Processing - Databricks Structured Streaming
 - Real-time clickstream sessionization and deduplication
 - Micro-batch feature extraction for personalization signals
 - Watermarking for late-arriving event handling
 - Contributed to **12% reduction in subscriber churn**
 
-### 3. Feature Engineering — Delta Lake
+### 3. Feature Engineering - Delta Lake
 - Curated feature datasets from **50M+ subscriber interaction records**
 - Delta Lake optimization (Z-ordering, compaction) reducing query latency by **35%**
 - Versioned feature tables supporting model reproducibility
 - Reusable ML-ready dataset preparation framework
 
-### 4. Compute Optimization — Spark Tuning
+### 4. Compute Optimization - Spark Tuning
 - Databricks cluster autoscaling strategies
 - Spark execution plan analysis and shuffle optimization
 - Compute consumption reduced by **22%** through execution strategy tuning
 
-### 5. Governance — Azure Purview
+### 5. Governance - Azure Purview
 - SOC2 and GDPR traceability across analytics and ML dataset pipelines
 - Metadata lineage enforcement from raw events to feature store
 
@@ -144,7 +144,7 @@ realtime-personalization-platform/
 
 ## Author
 
-**Samhitha Alapati** — Senior Data Engineer
+**Samhitha Alapati** - Senior Data Engineer
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square)](https://applywizz-samhitha-26024.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samhitha-alapati-data-engineer)
